@@ -13,10 +13,8 @@ public enum KitType {
 					ItemUtility.createCustomItem(
 									Material.RABBIT_SPAWN_EGG,
 									ChatColor.GOLD + "Mole",
-									ChatColor.GRAY + "Moles are small mammals adapted to a subterranean lifestyle.\n" + ChatColor.GRAY
-													+ "They have cylindrical bodies, velvety fur, very small, inconspicuous\n" + ChatColor.GRAY
-													+ "eyes and ears, reduced hind limbs, and short, powerful forelimbs with\n" + ChatColor.GRAY
-													+ "large paws adapted for digging.\n\n"
+									ChatColor.GRAY + "Moles are often gluttonous beasts,\n" + ChatColor.GRAY
+													+ "proving to be very effective in this mini-game.\n\n"
 													+ ChatColor.GRAY + "- " + ChatColor.YELLOW + "Golden Pickaxe\n"
 													+ ChatColor.GRAY + "- " + ChatColor.WHITE + "Speed " + ChatColor.BOLD + "III " + ChatColor.GRAY + "(" + ChatColor.YELLOW + "12.5 " + ChatColor.GRAY + "s)"
 					)
@@ -26,10 +24,8 @@ public enum KitType {
 					ItemUtility.createCustomItem(
 									Material.SILVERFISH_SPAWN_EGG,
 									ChatColor.DARK_GRAY + "Vole",
-									ChatColor.GRAY + "Voles are small rodents that are relatives of lemmings and hamsters,\n" + ChatColor.GRAY
-													+ "but with a stouter body; a longer, hairy tail; a slightly rounder head;\n" + ChatColor.GRAY
-													+ "smaller eyes and ears; and differently formed molars. They are sometimes\n" + ChatColor.GRAY
-													+ "known as meadow mice or field mice in North America.\n\n"
+									ChatColor.GRAY + "Voles are most commonly roly and poly,\n" + ChatColor.GRAY
+													+ "with some variants being professional munchers.\n\n"
 													+ ChatColor.GRAY + "- " + ChatColor.WHITE + "Iron Shovel\n"
 													+ ChatColor.GRAY + "- " + ChatColor.YELLOW + "Haste " + ChatColor.BOLD + "I " + ChatColor.GRAY + "("
 													+ ChatColor.YELLOW + "12.5 " + ChatColor.GRAY + "s)"
