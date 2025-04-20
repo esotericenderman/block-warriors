@@ -1,4 +1,4 @@
-# Block Warriors Plugin
+# Block Warriors
 
 [![Project status: completed](./assets/images/badges/status.svg)](./)
 
@@ -8,7 +8,7 @@
 
 &copy; 2024-2025 [Esoteric Enderman](https://enderman.dev)
 
-[Block Warriors Plugin](/) is licensed under the [AGPL 3.0](./LICENSE) only.
+[Block Warriors](/) is licensed under the [AGPL 3.0](./LICENSE) only.
 
 ## Topics
 
