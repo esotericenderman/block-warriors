@@ -27,7 +27,7 @@ public final class ArenaCommand extends AbstractCommand {
 						"/arena <join | leave | list | teams | kits> (arena)",
 						new Integer[]{1, 2},
 						new String[]{"game"},
-						"block_muncher.arena",
+						null,
 						true);
 
 		this.plugin = plugin;
