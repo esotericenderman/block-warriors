@@ -1,6 +1,6 @@
 # Block Warriors
 
-[![Project status: completed](./assets/images/badges/status.svg)](./)
+[![Project status: completed](./assets/images/badges/status.svg)](/)
 
 A collection of fun Minecraft minigames in the form of a plugin.
 
