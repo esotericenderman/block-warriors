@@ -12,7 +12,7 @@ Required map: [Block Warriors World](https://github.com/esotericenderman/block-w
 
 [Block Warriors](/) is licensed under the [AGPL 3.0](./LICENSE) only.
 
-The submodule(s) have their own respective licenses.
+The submodule in this project has its own respective license.
 
 ## Topics
 
