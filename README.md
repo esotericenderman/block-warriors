@@ -2,9 +2,11 @@
 
 [![Project status: completed](./assets/images/badges/status.svg)](./)
 
-> A collection of fun Minecraft minigames.
+A collection of fun Minecraft minigames in the form of a plugin.
 
-Required map: [Block Warriors World](https://github.com/esotericenderman/block-warriors-world)
+## Requirements
+
+- [Block Warriors World](https://github.com/esotericenderman/block-warriors-world)
 
 ## Gallery
 
