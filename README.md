@@ -6,6 +6,48 @@
 
 Required map: [Block Warriors World](https://github.com/esotericenderman/block-warriors-world)
 
+## Gallery
+
+![Arena join signs](./assets/images/screenshots/arenas.png)
+
+### Games
+
+#### Gladiators
+
+![Gladiator fight](./assets/images/screenshots/games/gladiators/gladiators.png)
+
+##### Kits
+
+![Gladiator Retiarius kit](./assets/images/screenshots/games/gladiators/kits/retiarius.png)
+![Gladiator Murmillo kit](./assets/images/screenshots/games/gladiators/kits/murmillo.png)
+
+#### Block Munchers
+
+##### Kits
+
+![Block Muncher Mole kit](./assets/images/screenshots/games/muncher/kits/mole.png)
+![Block Muncher Vole kit](./assets/images/screenshots/games/muncher/kits/vole.png)
+
+#### One in the Chamber
+
+![One in the Chamber](./assets/images/screenshots/games/chamber/chamber.png)
+
+#### Slime Shooter
+
+![Slime Shooter](./assets/images/screenshots/games/slimes/slimes.png)
+
+#### Avoid the Rain
+
+![Avoid the Rain](./assets/images/screenshots/games/rain/rain.png)
+
+#### King of the Hill
+
+![King of the Hill](./assets/images/screenshots/games/hill/koth.png)
+
+#### Cactus Castle
+
+![Cactus Castle](./assets/images/screenshots/games/cactus/cactus.png)
+
 ## License
 
 &copy; 2024-2025 [Esoteric Enderman](https://enderman.dev)
