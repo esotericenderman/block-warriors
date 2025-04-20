@@ -23,14 +23,8 @@ java {
   toolchain.languageVersion = JavaLanguageVersion.of(javaVersion)
 }
 
-repositories {
-    mavenCentral()
-}
-
 dependencies {
   paperweight.paperDevBundle("$minecraftVersion-R0.1-SNAPSHOT")
-
-  implementation("dev.jorel" , "commandapi-bukkit-shade-mojang-mapped" , "9.5.1")
 }
 
 tasks {
