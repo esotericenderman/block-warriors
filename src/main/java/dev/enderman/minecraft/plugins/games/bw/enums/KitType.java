@@ -58,7 +58,7 @@ public enum KitType {
 													+ ChatColor.GRAY + "- " + ChatColor.YELLOW + "Gold Helmet\n"
 													+ ChatColor.GRAY + "- " + ChatColor.YELLOW + "Gold Boots\n"
 													+ ChatColor.GRAY + "- " + ChatColor.DARK_AQUA + "Shield\n"
-													+ ChatColor.GRAY + "- " + ChatColor.BLACK + "Blindness " + ChatColor.BOLD + "I " + ChatColor.GRAY + "(" + ChatColor.YELLOW + "10 " + ChatColor.GRAY + "s)\n"
+													+ ChatColor.GRAY + "- " + ChatColor.GRAY + "Blindness " + ChatColor.BOLD + "I " + ChatColor.GRAY + "(" + ChatColor.YELLOW + "10 " + ChatColor.GRAY + "s)\n"
 													+ ChatColor.GRAY + "- " + ChatColor.WHITE + "Speed " + ChatColor.BOLD + "II " + ChatColor.GRAY + "(" + ChatColor.YELLOW + "10 " + ChatColor.GRAY + "s)"
 					)
 	);
