@@ -6,7 +6,7 @@
 
 ## License
 
-&copy; [Esoteric Enderman](https://enderman.dev) 2024-2025
+&copy; 2024-2025 [Esoteric Enderman](https://enderman.dev)
 
 [Block Warriors Plugin](/) is licensed under the [AGPL 3.0](./LICENSE) only.
 
