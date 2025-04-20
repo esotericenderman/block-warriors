@@ -10,45 +10,45 @@ A collection of fun Minecraft minigames in the form of a plugin.
 
 ## Gallery
 
-![Arena join signs](./assets/images/screenshots/arenas.png)
+<img src="./assets/images/screenshots/arenas.png" alt="Arena join signs" width="1000" />
 
 ### Games
 
 #### Gladiators
 
-![Gladiator fight](./assets/images/screenshots/games/gladiators/gladiators.png)
+<img src="./assets/images/screenshots/games/gladiators/gladiators.png" alt="Gladiator fight" width="1000" />
 
 ##### Kits
 
-![Gladiator Retiarius kit](./assets/images/screenshots/games/gladiators/kits/retiarius.png)
-![Gladiator Murmillo kit](./assets/images/screenshots/games/gladiators/kits/murmillo.png)
+<img src="./assets/images/screenshots/games/gladiators/kits/retiarius.png" alt="Gladiator Retiarius kit" width="1000" />
+<img src="./assets/images/screenshots/games/gladiators/kits/murmillo.png" alt="Gladiator Murmillo kit" width="1000" />
 
 #### Block Munchers
 
 ##### Kits
 
-![Block Muncher Mole kit](./assets/images/screenshots/games/muncher/kits/mole.png)
-![Block Muncher Vole kit](./assets/images/screenshots/games/muncher/kits/vole.png)
+<img src="./assets/images/screenshots/games/muncher/kits/mole.png" alt="Block Muncher Mole kit" width="1000" />
+<img src="./assets/images/screenshots/games/muncher/kits/vole.png" alt="Block Muncher Vole kit" width="1000" />
 
 #### One in the Chamber
 
-![One in the Chamber](./assets/images/screenshots/games/chamber/chamber.png)
+<img src="./assets/images/screenshots/games/chamber/chamber.png" alt="One in the Chamber" width="1000" />
 
 #### Slime Shooter
 
-![Slime Shooter](./assets/images/screenshots/games/slimes/slimes.png)
+<img src="./assets/images/screenshots/games/slimes/slimes.png" alt="Slime Shooter" width="1000" />
 
 #### Avoid the Rain
 
-![Avoid the Rain](./assets/images/screenshots/games/rain/rain.png)
+<img src="./assets/images/screenshots/games/rain/rain.png" alt="Avoid the Rain" width="1000" />
 
 #### King of the Hill
 
-![King of the Hill](./assets/images/screenshots/games/hill/koth.png)
+<img src="./assets/images/screenshots/games/hill/koth.png" alt="King of the Hill" width="1000" />
 
 #### Cactus Castle
 
-![Cactus Castle](./assets/images/screenshots/games/cactus/cactus.png)
+<img src="./assets/images/screenshots/games/cactus/cactus.png" alt="Cactus Castle" width="1000" />
 
 ## License
 
