@@ -4,6 +4,8 @@
 
 > A collection of fun Minecraft minigames.
 
+Required map: [Block Warriors World](https://github.com/esotericenderman/block-warriors-world)
+
 ## License
 
 &copy; 2024-2025 [Esoteric Enderman](https://enderman.dev)
