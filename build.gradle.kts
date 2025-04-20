@@ -48,6 +48,7 @@ bukkitPluginYaml {
   description = project.description
 
   authors = listOf("Esoteric Enderman")
+  website = "https://github.com/esotericenderman/block-warriors"
 
   version = project.version.toString()
   apiVersion = minecraftVersion
