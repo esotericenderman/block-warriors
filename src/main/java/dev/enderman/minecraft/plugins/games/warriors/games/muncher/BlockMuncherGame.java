@@ -1,4 +1,4 @@
-package dev.enderman.minecraft.plugins.games.warriors.games.blockmuncher;
+package dev.enderman.minecraft.plugins.games.warriors.games.muncher;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

@@ -1,4 +1,4 @@
-package dev.enderman.minecraft.plugins.games.warriors.event.listeners;
+package dev.enderman.minecraft.plugins.games.warriors.events.listeners;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

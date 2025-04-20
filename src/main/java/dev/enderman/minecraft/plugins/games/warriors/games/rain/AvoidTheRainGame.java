@@ -1,4 +1,4 @@
-package dev.enderman.minecraft.plugins.games.warriors.games.avoidtherain;
+package dev.enderman.minecraft.plugins.games.warriors.games.rain;
 
 import org.bukkit.*;
 import org.bukkit.entity.*;

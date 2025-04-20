@@ -1,4 +1,4 @@
-package dev.enderman.minecraft.plugins.games.warriors.games.slimeshooter;
+package dev.enderman.minecraft.plugins.games.warriors.games.slimes;
 
 import org.bukkit.*;
 import org.bukkit.entity.EntityType;

@@ -1,4 +1,4 @@
-package dev.enderman.minecraft.plugins.games.warriors.games.oneinthechamber;
+package dev.enderman.minecraft.plugins.games.warriors.games.chamber;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

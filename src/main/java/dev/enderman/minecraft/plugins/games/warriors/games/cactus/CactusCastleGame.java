@@ -1,4 +1,4 @@
-package dev.enderman.minecraft.plugins.games.warriors.games.cactuscastle;
+package dev.enderman.minecraft.plugins.games.warriors.games.cactus;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

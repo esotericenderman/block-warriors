@@ -1,4 +1,4 @@
-package dev.enderman.minecraft.plugins.games.warriors.games.blockmuncher.kits;
+package dev.enderman.minecraft.plugins.games.warriors.games.muncher.kits;
 
 import org.bukkit.Material;
 import org.bukkit.Sound;
