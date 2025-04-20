@@ -40,7 +40,7 @@ public enum KitType {
 					ItemUtility.createCustomItem(
 									Material.TRIDENT,
 									ChatColor.GOLD + "Retiarius",
-									ChatColor.RED + "A fierce, strong and brave warrior from the coliseums of Ancient Rome.\n\n"
+									ChatColor.RED + "A fierce, strong and brave warrior from the colosseum of Ancient Rome.\n\n"
 													+ ChatColor.GRAY + "- " + ChatColor.AQUA + "Trident\n"
 													+ ChatColor.GRAY + "- " + ChatColor.YELLOW + "Gold Chestplate\n"
 													+ ChatColor.GRAY + "- " + ChatColor.WHITE + "Iron Boots\n"
