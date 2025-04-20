@@ -14,7 +14,7 @@ plugins {
 description = "A collection of fun Minecraft minigames."
 
 group = "dev.enderman"
-version = "1.0.0-SNAPSHOT"
+version = "1.0.0"
 
 val javaVersion = 21
 val minecraftVersion = "1.21"
