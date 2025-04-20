@@ -27,7 +27,6 @@ import dev.enderman.minecraft.plugins.games.warriors.enums.Team;
 import dev.enderman.minecraft.plugins.games.warriors.types.AbstractGame;
 import dev.enderman.minecraft.plugins.games.warriors.types.Arena;
 import dev.enderman.minecraft.plugins.games.warriors.utility.DebugUtility;
-import dev.enderman.minecraft.plugins.games.warriors.utility.PacketUtility;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -173,8 +172,6 @@ public final class OneInTheChamberGame extends AbstractGame {
 		final Player deadPlayer = event.getEntity();
 
 		if (isArenaPlayer(event.getEntity())) {
-			PacketUtility.respawnPlayer(deadPlayer);
-
 			DebugUtility.log("Player drops: " + event.getDrops());
 
 			final Player killer = deadPlayer.getKiller();

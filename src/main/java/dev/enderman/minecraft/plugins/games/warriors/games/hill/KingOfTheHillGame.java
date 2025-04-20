@@ -22,7 +22,6 @@ import dev.enderman.minecraft.plugins.games.warriors.enums.Team;
 import dev.enderman.minecraft.plugins.games.warriors.types.AbstractGame;
 import dev.enderman.minecraft.plugins.games.warriors.types.Arena;
 import dev.enderman.minecraft.plugins.games.warriors.utility.DebugUtility;
-import dev.enderman.minecraft.plugins.games.warriors.utility.PacketUtility;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -126,8 +125,6 @@ public final class KingOfTheHillGame extends AbstractGame {
 		final Player deadPlayer = event.getEntity();
 
 		if (isArenaPlayer(event.getEntity())) {
-			PacketUtility.respawnPlayer(deadPlayer);
-
 			DebugUtility.log("Player drops: " + event.getDrops());
 
 			final Player killer = deadPlayer.getKiller();

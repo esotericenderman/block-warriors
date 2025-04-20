@@ -7,7 +7,6 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.event.entity.EntityPickupItemEvent;
-import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.event.player.PlayerInteractEntityEvent;
 import org.bukkit.event.player.PlayerRespawnEvent;
 import org.jetbrains.annotations.NotNull;
@@ -19,7 +18,6 @@ import dev.enderman.minecraft.plugins.games.warriors.enums.Team;
 import dev.enderman.minecraft.plugins.games.warriors.types.AbstractGame;
 import dev.enderman.minecraft.plugins.games.warriors.types.AbstractKit;
 import dev.enderman.minecraft.plugins.games.warriors.types.Arena;
-import dev.enderman.minecraft.plugins.games.warriors.utility.PacketUtility;
 
 import java.util.HashMap;
 import java.util.UUID;
@@ -123,15 +121,6 @@ public final class BlockMuncherGame extends AbstractGame {
 	public void onEntityDamageByEntity(@NotNull final EntityDamageByEntityEvent event) {
 		if (arena.getState() != GameState.PLAYING && isArenaPlayer(event.getEntity()) && isArenaPlayer(event.getDamager())) {
 			event.setCancelled(true);
-		}
-	}
-
-	@EventHandler
-	public void onPlayerDeath(@NotNull final PlayerDeathEvent event) {
-		final Player deadPlayer = event.getEntity();
-
-		if (isArenaPlayer(deadPlayer)) {
-			PacketUtility.respawnPlayer(deadPlayer);
 		}
 	}
 

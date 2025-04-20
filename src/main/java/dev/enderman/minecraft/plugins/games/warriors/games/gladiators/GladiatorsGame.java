@@ -19,7 +19,6 @@ import dev.enderman.minecraft.plugins.games.warriors.enums.Team;
 import dev.enderman.minecraft.plugins.games.warriors.types.AbstractGame;
 import dev.enderman.minecraft.plugins.games.warriors.types.AbstractKit;
 import dev.enderman.minecraft.plugins.games.warriors.types.Arena;
-import dev.enderman.minecraft.plugins.games.warriors.utility.PacketUtility;
 
 import java.util.HashMap;
 import java.util.UUID;
@@ -111,8 +110,6 @@ public final class GladiatorsGame extends AbstractGame {
 		final Player deadPlayer = event.getEntity();
 
 		if (isArenaPlayer(deadPlayer)) {
-			PacketUtility.respawnPlayer(deadPlayer);
-
 			final Player murderer = deadPlayer.getKiller();
 
 			if (isArenaPlayer(murderer)) {

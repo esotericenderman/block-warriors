@@ -1,6 +1,7 @@
 package dev.enderman.minecraft.plugins.games.warriors;
 
 import org.bukkit.Bukkit;
+import org.bukkit.GameRule;
 import org.bukkit.NamespacedKey;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.Projectile;
@@ -40,6 +41,8 @@ public final class BlockWarriorsPlugin extends JavaPlugin {
 		pluginManager.registerEvents(new GameListener(this), this);
 
 		new ArenaCommand(this);
+
+		getServer().getWorld("world").setGameRule(GameRule.DO_IMMEDIATE_RESPAWN, true);
 	}
 
 	@Override
