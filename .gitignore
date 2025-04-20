@@ -112,10 +112,13 @@ buildNumber.properties
 # Common working directory
 run/
 
+# Gradle
 .gradle
+gradlew
+gradlew.bat
 
+# VSCode
 bin
 
+# Build
 build
-
-!lobby-world.zip
