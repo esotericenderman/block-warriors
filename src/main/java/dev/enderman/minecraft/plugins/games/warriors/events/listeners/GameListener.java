@@ -144,6 +144,5 @@ public final class GameListener implements Listener {
 		if (attackingTeam == attackedTeam) {
 			event.setCancelled(true);
 		}
-		
 	}
 }
