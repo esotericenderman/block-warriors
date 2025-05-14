@@ -129,19 +129,21 @@ public final class GameListener implements Listener {
 		final Entity attacker = event.getDamager();
 		final Entity damaged = event.getEntity();
 
-		if (attacker instanceof Player attackingPlayer && damaged instanceof Player) {
-			final Arena arena = plugin.getArenaManager().getArena(attackingPlayer);
+		if (!(attacker instanceof Player attackingPlayer && damaged instanceof Player)) 
+			return;
 
-			if (arena != null) {
-				final Player damagedPlayer = (Player) damaged;
+		final Arena arena = plugin.getArenaManager().getArena(attackingPlayer);
 
-				final Team attackingTeam = arena.getTeam(attackingPlayer);
-				final Team attackedTeam = arena.getTeam(damagedPlayer);
+		if (arena == null) return;
 
-				if (attackingTeam == attackedTeam) {
-					event.setCancelled(true);
-				}
-			}
+		final Player damagedPlayer = (Player) damaged;
+
+		final Team attackingTeam = arena.getTeam(attackingPlayer);
+		final Team attackedTeam = arena.getTeam(damagedPlayer);
+
+		if (attackingTeam == attackedTeam) {
+			event.setCancelled(true);
 		}
+		
 	}
 }
