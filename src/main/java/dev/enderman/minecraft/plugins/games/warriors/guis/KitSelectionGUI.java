@@ -13,12 +13,13 @@ import org.jetbrains.annotations.NotNull;
 import dev.enderman.minecraft.plugins.games.warriors.BlockWarriorsPlugin;
 import dev.enderman.minecraft.plugins.games.warriors.enums.KitType;
 import dev.enderman.minecraft.plugins.games.warriors.types.Arena;
+import net.kyori.adventure.text.Component;
 
 import java.util.List;
 
 public final class KitSelectionGUI {
 	public KitSelectionGUI(@NotNull final BlockWarriorsPlugin plugin, @NotNull final Arena arena, @NotNull final Player player) {
-		final Inventory inventory = Bukkit.createInventory(null, 9, ChatColor.GOLD + "Kit Selection");
+		final Inventory inventory = Bukkit.createInventory(null, 9, Component.text(ChatColor.GOLD + "Kit Selection"));
 
 		final List<KitType> gameKits = arena.getGame().getKits();
 

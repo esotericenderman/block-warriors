@@ -29,7 +29,7 @@ import java.util.UUID;
 
 public final class CactusCastleGame extends AbstractGame {
 
-	public CactusCastleGame(@NotNull BlockWarriorsPlugin plugin, @NotNull Arena arena) {
+	public CactusCastleGame(@NotNull final BlockWarriorsPlugin plugin, @NotNull final Arena arena) {
 		super(plugin, arena);
 	}
 

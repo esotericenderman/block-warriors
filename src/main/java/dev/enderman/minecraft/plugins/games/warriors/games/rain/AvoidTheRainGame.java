@@ -35,7 +35,7 @@ public final class AvoidTheRainGame extends AbstractGame {
 	private final HashMap<Team, Integer> points = new HashMap<>();
 	private BukkitTask spawnProjectilesTask;
 
-	public AvoidTheRainGame(@NotNull BlockWarriorsPlugin plugin, @NotNull Arena arena) {
+	public AvoidTheRainGame(@NotNull final BlockWarriorsPlugin plugin, @NotNull final Arena arena) {
 		super(plugin, arena);
 
 		this.plugin = plugin;
