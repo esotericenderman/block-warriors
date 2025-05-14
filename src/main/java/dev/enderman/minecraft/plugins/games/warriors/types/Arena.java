@@ -32,6 +32,7 @@ import org.bukkit.block.sign.Side;
 import org.bukkit.block.sign.SignSide;
 import org.bukkit.entity.Player;
 import org.bukkit.potion.PotionEffectType;
+import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -271,6 +272,14 @@ public final class Arena {
 
 	public List<UUID> getPlayers() {
 		return players;
+	}
+
+	public boolean containsPlayer(@NotNull final Player player) {
+		return players.contains(player.getUniqueId());
+	}
+
+	public boolean containsPlayer(@NotNull final UUID uuid) {
+		return players.contains(uuid);
 	}
 
 	public Team getTeam(@NotNull final Player player) {
