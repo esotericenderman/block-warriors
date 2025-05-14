@@ -127,16 +127,13 @@ public final class GameListener implements Listener {
 	@EventHandler
 	public void onPlayerHit(@NotNull final EntityDamageByEntityEvent event) {
 		final Entity attacker = event.getDamager();
-		final Entity damaged = event.getEntity();
+		if (!(attacker instanceof Player attackingPlayer)) return;
 
-		if (!(attacker instanceof Player attackingPlayer && damaged instanceof Player)) 
-			return;
+		final Entity damaged = event.getEntity();
+		if (!(damaged instanceof Player damagedPlayer)) return;
 
 		final Arena arena = plugin.getArenaManager().getArena(attackingPlayer);
-
 		if (arena == null) return;
-
-		final Player damagedPlayer = (Player) damaged;
 
 		final Team attackingTeam = arena.getTeam(attackingPlayer);
 		final Team attackedTeam = arena.getTeam(damagedPlayer);
