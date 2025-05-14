@@ -135,6 +135,9 @@ public final class GameListener implements Listener {
 		final Arena arena = plugin.getArenaManager().getArena(attackingPlayer);
 		if (arena == null) return;
 
+		if (!arena.containsPlayer(attackingPlayer)) return;
+		if (!arena.containsPlayer(damagedPlayer)) return;
+
 		final Team attackingTeam = arena.getTeam(attackingPlayer);
 		final Team attackedTeam = arena.getTeam(damagedPlayer);
 
