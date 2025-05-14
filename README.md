@@ -52,7 +52,8 @@ A collection of fun Minecraft minigames in the form of a plugin.
 
 ## License
 
-&copy; 2024-2025 [Esoteric Enderman](https://enderman.dev)
+&copy; 2024-2025 [Esoteric Enderman](https://enderman.dev)\
+&copy; 2025 [Block Warriors contributors](https://github.com/esotericenderman/block-warriors/graphs/contributors)
 
 [Block Warriors](/) is licensed under the [AGPL 3.0](./LICENSE) only.
 
