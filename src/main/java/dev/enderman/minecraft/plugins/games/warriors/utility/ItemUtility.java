@@ -4,6 +4,7 @@ import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Multimap;
 
 import dev.enderman.minecraft.plugins.games.warriors.utility.types.ApplicableEnchantment;
+import net.kyori.adventure.text.Component;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
@@ -38,10 +39,10 @@ public final class ItemUtility {
 		final ItemMeta meta = item.getItemMeta();
 		assert meta != null;
 
-		meta.setDisplayName(ChatColor.RESET + displayName);
+		meta.displayName(Component.text(net.md_5.bungee.api.ChatColor.RESET + displayName));
 
-		meta.setLore(lore == null ? null
-						: Arrays.stream(lore.split("\n")).map((final String line) -> ChatColor.RESET + line).toList());
+		meta.lore(lore == null ? null
+						: Arrays.stream(lore.split("\n")).map((final String line) -> Component.text(ChatColor.RESET + line)).toList());
 
 		meta.setAttributeModifiers(modifiers);
 

@@ -13,10 +13,11 @@ import org.jetbrains.annotations.NotNull;
 import dev.enderman.minecraft.plugins.games.warriors.BlockWarriorsPlugin;
 import dev.enderman.minecraft.plugins.games.warriors.enums.Team;
 import dev.enderman.minecraft.plugins.games.warriors.types.Arena;
+import net.kyori.adventure.text.Component;
 
 public final class TeamSelectionGUI {
 	public TeamSelectionGUI(@NotNull final BlockWarriorsPlugin plugin, @NotNull final Arena arena, @NotNull final Player player) {
-		final Inventory inventory = Bukkit.createInventory(null, 9, ChatColor.GOLD + "Team Selection");
+		final Inventory inventory = Bukkit.createInventory(null, 9, Component.text(ChatColor.GOLD + "Team Selection"));
 
 		for (final Team team : Team.values()) {
 			final ItemStack icon = new ItemStack(team.getIconMaterial());
@@ -26,8 +27,8 @@ public final class TeamSelectionGUI {
 			PersistentDataContainer dataContainer = meta.getPersistentDataContainer();
 			dataContainer.set(plugin.getTeamNameKey(), PersistentDataType.STRING, team.name());
 
-			meta.setDisplayName(team.getDisplayName() + ChatColor.RESET + ChatColor.GRAY + " (" + ChatColor.YELLOW
-							+ arena.getTeamPlayerCount(team) + ChatColor.GRAY + " players)");
+			meta.displayName(Component.text(team.getDisplayName() + ChatColor.RESET + ChatColor.GRAY + " (" + ChatColor.YELLOW
+							+ arena.getTeamPlayerCount(team) + ChatColor.GRAY + " players)"));
 
 			icon.setItemMeta(meta);
 

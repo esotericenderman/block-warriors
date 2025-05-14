@@ -9,7 +9,7 @@ import org.jetbrains.annotations.Nullable;
 public final class SignLocation extends Location {
 	private final BlockFace facingDirection;
 
-	public SignLocation(@Nullable World world, double x, double y, double z, @NotNull final BlockFace direction) {
+	public SignLocation(@Nullable World world, final double x, final double y, final double z, @NotNull final BlockFace direction) {
 		super(world, x, y, z);
 		this.facingDirection = direction;
 	}

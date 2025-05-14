@@ -37,8 +37,8 @@ public final class OneInTheChamberGame extends AbstractGame {
 	private final HashMap<Team, Integer> kills = new HashMap<>();
 
 	public OneInTheChamberGame(
-					@NotNull BlockWarriorsPlugin plugin,
-					@NotNull Arena arena
+					@NotNull final BlockWarriorsPlugin plugin,
+					@NotNull final Arena arena
 	) {
 		super(plugin, arena);
 

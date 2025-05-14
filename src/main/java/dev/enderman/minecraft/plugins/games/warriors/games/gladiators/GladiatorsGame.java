@@ -27,7 +27,7 @@ public final class GladiatorsGame extends AbstractGame {
 	private final Arena arena;
 	private final HashMap<Team, Integer> kills = new HashMap<>();
 
-	public GladiatorsGame(@NotNull final BlockWarriorsPlugin plugin, @NotNull Arena arena) {
+	public GladiatorsGame(@NotNull final BlockWarriorsPlugin plugin, @NotNull final Arena arena) {
 		super(
 						plugin,
 						arena,
