@@ -32,7 +32,7 @@ public final class KingOfTheHillGame extends AbstractGame {
 	private final Map<Team, Integer> points = new HashMap<>();
 	private BukkitTask checkIfKingTask;
 
-	public KingOfTheHillGame(@NotNull BlockWarriorsPlugin plugin, @NotNull Arena arena) {
+	public KingOfTheHillGame(@NotNull final BlockWarriorsPlugin plugin, @NotNull final Arena arena) {
 		super(plugin, arena);
 
 		this.plugin = plugin;

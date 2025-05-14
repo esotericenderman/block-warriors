@@ -30,7 +30,7 @@ public final class SlimeShooterGame extends AbstractGame {
 	private final HashMap<Team, Integer> points = new HashMap<>();
 	private BukkitTask slimeSpawnerTask;
 
-	public SlimeShooterGame(@NotNull BlockWarriorsPlugin plugin, @NotNull Arena arena) {
+	public SlimeShooterGame(@NotNull final BlockWarriorsPlugin plugin, @NotNull final Arena arena) {
 		super(
 						plugin,
 						arena

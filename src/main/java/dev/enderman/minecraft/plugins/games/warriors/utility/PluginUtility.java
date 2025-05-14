@@ -1,9 +1,10 @@
 package dev.enderman.minecraft.plugins.games.warriors.utility;
 
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
+
+import net.md_5.bungee.api.ChatColor;
 
 import java.util.logging.Logger;
 import java.util.regex.Matcher;
