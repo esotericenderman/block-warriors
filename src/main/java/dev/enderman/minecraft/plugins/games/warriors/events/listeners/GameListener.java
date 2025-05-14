@@ -125,7 +125,7 @@ public final class GameListener implements Listener {
 	}
 
 	@EventHandler
-	public void onPlayerHit(@NotNull final EntityDamageByEntityEvent event) {
+	public void onFriendlyFire(@NotNull final EntityDamageByEntityEvent event) {
 		final Entity attacker = event.getDamager();
 		if (!(attacker instanceof Player attackingPlayer)) return;
 
