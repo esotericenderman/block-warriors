@@ -1,86 +1,67 @@
-# Block Warriors 🎮
+# Block Warriors
 
-![Block Warriors](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Release-brightgreen)  
-[Download the latest release](https://github.com/chenme72/block-warriors/releases)
+[![Project status: completed](./assets/images/badges/status.svg)](/)
 
-Welcome to **Block Warriors**, a vibrant collection of engaging Minecraft minigames designed as a plugin. Dive into the world of creativity and competition, where players can enjoy various minigames that enhance their Minecraft experience.
+A collection of fun Minecraft minigames in the form of a plugin.
 
-## Table of Contents
+## Requirements
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Minigames Included](#minigames-included)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Block Warriors World](https://github.com/esotericenderman/block-warriors-world)
 
-## Features 🌟
+## Gallery
 
-- **Variety of Minigames**: Explore a wide range of minigames that cater to different play styles.
-- **Easy Installation**: Set up the plugin quickly and start playing in no time.
-- **Customizable**: Adjust game settings to fit your server's needs.
-- **Active Development**: Regular updates ensure new content and improvements.
-- **Community Driven**: Feedback from players shapes future updates.
+<img src="./assets/images/screenshots/arenas.png" alt="Arena join signs" width="1000" />
 
-## Installation ⚙️
+### Games
 
-To install the Block Warriors plugin, follow these steps:
+#### Gladiators
 
-1. Download the latest release from the [Releases](https://github.com/chenme72/block-warriors/releases) section.
-2. Place the downloaded `.jar` file into the `plugins` folder of your Minecraft server.
-3. Restart the server to load the plugin.
-4. Configure settings as needed in the `config.yml` file located in the `BlockWarriors` folder.
+<img src="./assets/images/screenshots/games/gladiators/gladiators.png" alt="Gladiator fight" width="1000" />
 
-## Usage 🕹️
+##### Kits
 
-Once installed, players can access the minigames through the in-game menu. Use the command `/bw` to open the Block Warriors interface. From there, you can select your desired minigame and jump right into the action!
+<img src="./assets/images/screenshots/games/gladiators/kits/retiarius.png" alt="Gladiator Retiarius kit" width="1000" />
+<img src="./assets/images/screenshots/games/gladiators/kits/murmillo.png" alt="Gladiator Murmillo kit" width="1000" />
 
-## Minigames Included 🎉
+#### Block Munchers
 
-Block Warriors offers a variety of minigames to keep players entertained:
+##### Kits
 
-### 1. Capture the Flag 🏳️
+<img src="./assets/images/screenshots/games/muncher/kits/mole.png" alt="Block Muncher Mole kit" width="1000" />
+<img src="./assets/images/screenshots/games/muncher/kits/vole.png" alt="Block Muncher Vole kit" width="1000" />
 
-Compete in teams to capture the opposing team's flag while defending your own. Strategy and teamwork are key to victory.
+#### One in the Chamber
 
-### 2. Parkour Challenge 🧗
+<img src="./assets/images/screenshots/games/chamber/chamber.png" alt="One in the Chamber" width="1000" />
 
-Test your agility and skills in this fast-paced parkour race. Navigate through challenging courses and be the first to cross the finish line.
+#### Slime Shooter
 
-### 3. Survival Arena 🛡️
+<img src="./assets/images/screenshots/games/slimes/slimes.png" alt="Slime Shooter" width="1000" />
 
-Face waves of mobs in a survival challenge. Gather resources, build defenses, and survive as long as possible.
+#### Avoid the Rain
 
-### 4. Treasure Hunt 🗺️
+<img src="./assets/images/screenshots/games/rain/rain.png" alt="Avoid the Rain" width="1000" />
 
-Search for hidden treasures scattered across the map. Use clues and hints to find the most valuable items before your opponents.
+#### King of the Hill
 
-### 5. Spleef ⚡
+<img src="./assets/images/screenshots/games/hill/koth.png" alt="King of the Hill" width="1000" />
 
-Dig away blocks beneath your opponents to make them fall. The last player standing wins!
+#### Cactus Castle
 
-## Contributing 🤝
+<img src="./assets/images/screenshots/games/cactus/cactus.png" alt="Cactus Castle" width="1000" />
 
-We welcome contributions from the community! If you have ideas for new minigames or improvements, please follow these steps:
+## License
 
-1. Fork the repository.
-2. Create a new branch for your feature or fix.
-3. Make your changes and commit them.
-4. Push your changes to your forked repository.
-5. Submit a pull request for review.
+&copy; 2024-2025 [Esoteric Enderman](https://enderman.dev)
 
-Your input helps us create a better experience for all players.
+[Block Warriors](/) is licensed under the [AGPL 3.0](./LICENSE) only.
 
-## License 📜
+The submodule in this project has its own respective license.
 
-This project is licensed under the MIT License. Feel free to use, modify, and distribute this plugin as you see fit.
+## Disclaimer
 
-## Contact 📬
+<sup>NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.</sup>
 
-For any questions or support, please reach out to the project maintainer:
+## Topics
 
-- **GitHub**: [chenme72](https://github.com/chenme72)
-- **Email**: contact@blockwarriors.com
-
-Thank you for checking out Block Warriors! We hope you enjoy playing our minigames as much as we enjoyed creating them. Don't forget to visit the [Releases](https://github.com/chenme72/block-warriors/releases) section for the latest updates and downloads!
+<sup>[java](https://github.com/topics/java), [minecraft](https://github.com/topics/minecraft), [paper](https://github.com/topics/paper), [minigames](https://github.com/topics/minigames), [minigame](https://github.com/topics/minigame), [minecraft-plugin](https://github.com/topics/minecraft-plugin), [mc](https://github.com/topics/mc), [minecraft-minigames](https://github.com/topics/minecraft-minigames), [paper-plugin](https://github.com/topics/paper-plugin), [minigame-plugin](https://github.com/topics/minigame-plugin), [minecraft-minigame](https://github.com/topics/minecraft-minigame), [papermc](https://github.com/topics/papermc), [papermc-plugin](https://github.com/topics/papermc-plugin), [mc-plugin](https://github.com/topics/mc-plugin), [minecraft-paper](https://github.com/topics/minecraft-paper), [paper-plugins](https://github.com/topics/paper-plugins), [mc-plugins](https://github.com/topics/mc-plugins), [minecraft-paper-plugin](https://github.com/topics/minecraft-paper-plugin), [java-21](https://github.com/topics/java-21), [paper-plugin-development](https://github.com/topics/paper-plugin-development)</sup>
