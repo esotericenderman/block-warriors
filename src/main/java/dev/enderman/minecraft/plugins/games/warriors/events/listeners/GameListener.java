@@ -139,7 +139,10 @@ public final class GameListener implements Listener {
 		if (!arena.containsPlayer(damagedPlayer)) return;
 
 		final Team attackingTeam = arena.getTeam(attackingPlayer);
+		if (attackingTeam == null) return;
+
 		final Team attackedTeam = arena.getTeam(damagedPlayer);
+		if (attackedTeam == null) return;
 
 		if (attackingTeam == attackedTeam) {
 			event.setCancelled(true);
